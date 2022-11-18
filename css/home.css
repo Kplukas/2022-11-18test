@@ -25,7 +25,8 @@ body {
 .hero {
     background-image: url(../img/hero_image.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 41px;
 }
 .headline {
     text-align: center;
@@ -113,6 +114,7 @@ body {
 .buttons2 {
     padding-top: 180px;
     padding-bottom: 40px;
+    text-align: center;
 }
 .line {
     display: block;
@@ -155,4 +157,25 @@ footer {
 footer p {
     font-size: 20px;
     line-height: 3em;
+}
+
+/* Responsive */
+
+@media (max-width:576px){
+    .headline {font-size: 40px;}
+    .hero-text { font-size: 20px;}
+    .buttons {padding-top: 20px; padding-bottom: 60px;}
+    .buttons, .btn3, .btn4 {font-size: 15px;}
+    .buttons2 {margin-left: 0;}
+    .btn {display: block; margin-top: 3px;}
+    .title1, .title2, .title3 {font-size: 30px;}
+    .img { width: 80%;}
+    .form-text, .form-btn {font-size: 20px; margin-top: 3px; margin-left: 0; display: inline-block;}
+    .description {font-size: 14px; font-weight: bold;}
+}
+@media (max-width: 768px){
+    .nav{display: none;}
+    .buttons{font-size: 15px;}
+    .btn {font-size: 20px;}
+    .buttons2, .form {padding: 0;}
 }
