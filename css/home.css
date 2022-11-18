@@ -1,5 +1,6 @@
 body {
     font-family: "Inter", serif;
+    cursor: default;
 }
 .header {
     padding-top: 30px;
@@ -21,6 +22,9 @@ body {
     font-size: 20px;
     color: #000000;
     margin-left: 50px;
+}
+.nav-link:hover {
+    text-decoration: none;
 }
 .hero {
     background-image: url(../img/hero_image.png);
@@ -53,10 +57,20 @@ body {
     color: #fff;
     background-color: #141414;
     font-weight: 600;
+    transition-duration: 0.3s;
+}
+.btn1:hover {
+    background-color: #fff;
+    color: #141414;
 }
 .btn2 {
     color: #141414;
     background-color: #fff;
+    transition-duration: 0.3s;
+}
+.btn2:hover{
+    background-color: #141414;
+    color: #fff;
 }
 .container-2 {
     margin-top: 108px;
@@ -103,6 +117,12 @@ body {
     color: #FFFFFF;
     border-radius: 11px;
     margin-left: 30px;
+    transition-duration: 0.3s;
+}
+.btn3:hover {
+    background-color: #FFFFFF;
+    color:#414141;
+    border: 1px solid #414141;
 }
 .btn4 {
     background-color: #F3F3F3;
@@ -110,6 +130,11 @@ body {
     color: #000000;
     border-radius: 11px;
     margin-left: 16px;
+    transition-duration: 0.3s;
+}
+.btn4:hover {
+    background-color: #000000;
+    color: #F3F3F3;
 }
 .buttons2 {
     padding-top: 180px;
@@ -144,6 +169,9 @@ body {
     margin-left: 20px;
     line-height: 2em;
     padding: 5px 10px;
+}
+.form-btn:hover{
+    cursor: pointer;
 }
 footer {
     background-color: #EDEDED;
